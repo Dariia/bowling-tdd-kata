@@ -6,7 +6,5 @@ Bowling Tdd Kata
 
 ## Installations
 ```bash
-git clone git@github.com:wix-private/bowling-tdd-kata.git
-cd bowling-tdd-kata
 npm install
 ```
