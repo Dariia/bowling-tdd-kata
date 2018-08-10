@@ -1,0 +1,32 @@
+{
+  "name": "bowling-tdd",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": {
+    "name": "Lior Belinsky",
+    "email": "liorbe@wix.com"
+  },
+  "scripts": {
+    "start": "yoshi start",
+    "pretest": "yoshi lint",
+    "test": "yoshi test --mocha",
+    "release": "yoshi release"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "chai": "~4.1.0",
+    "husky": "~0.14.0",
+    "react-test-renderer": "~15.6.0",
+    "velocity": "~0.7.0",
+    "yoshi": "^2.13.1"
+  },
+  "babel": {
+    "presets": [
+      "wix"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "wix/react"
+  }
+}
